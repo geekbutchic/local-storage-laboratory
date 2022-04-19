@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <form id="saved-string" autocomplete="on">
+        <label id="name">First Name:</label><br>
+        <input type="text" placeholder="Enter Name" id="string-input" />
+        <input type="submit" value="submit" />
+    </form>
+    <div id="saved-name"></div>
+    
+    <div id="page-loader-div">
+        <h4>Page Loader: </h4>
+        <div id="page-load-count"></div>
+    </div>
+
+    <form id="saved-list-form" autocomplete="on">
+        <label id="name">List Builder:</label><br>
+        <input type="text" id="saved-list-input" placeholder="Add to List"/>
+        <input type="submit" value="submit" />
+    </form>
+    <div id="saved-list-display"></div>
+
+</body>
+<script src="./main.js"></script>
+</html>
